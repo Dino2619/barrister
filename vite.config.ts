@@ -11,7 +11,7 @@ import { defineConfig } from "vite";
       dedupe: ["react", "react-dom"],
     },
     build: {
-      outDir: "dist",
+      outDir: "docs",
       emptyOutDir: true,
     },
     server: {
